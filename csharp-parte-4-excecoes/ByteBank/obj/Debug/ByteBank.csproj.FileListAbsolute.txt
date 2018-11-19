@@ -1,0 +1,7 @@
+D:\Desenvolvimento\Alura\C-Projects\csharp-parte-4-excecoes\ByteBank\bin\Debug\ByteBank.exe.config
+D:\Desenvolvimento\Alura\C-Projects\csharp-parte-4-excecoes\ByteBank\bin\Debug\ByteBank.exe
+D:\Desenvolvimento\Alura\C-Projects\csharp-parte-4-excecoes\ByteBank\bin\Debug\ByteBank.pdb
+D:\Desenvolvimento\Alura\C-Projects\csharp-parte-4-excecoes\ByteBank\obj\Debug\ByteBank.csprojAssemblyReference.cache
+D:\Desenvolvimento\Alura\C-Projects\csharp-parte-4-excecoes\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Alura\C-Projects\csharp-parte-4-excecoes\ByteBank\obj\Debug\ByteBank.exe
+D:\Desenvolvimento\Alura\C-Projects\csharp-parte-4-excecoes\ByteBank\obj\Debug\ByteBank.pdb
