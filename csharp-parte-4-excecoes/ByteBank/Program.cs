@@ -8,14 +8,39 @@ namespace ByteBank
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            ContaCorrente conta = new ContaCorrente(7480, 874150);
+            try
+            {
+                Metodo();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+           Console.ReadLine();
 
-            Console.WriteLine(ContaCorrente.TaxaOperacao);
-            
+        }
+        static void Metodo()
+        {
+            TestaDivisao(0);
+        }
 
-            Console.ReadLine();
+        static void TestaDivisao(int divisor)
+        {
+            Dividir(10, divisor);
+        }
+
+        public static int Dividir(int numero, int divisor)
+        {
+            try
+            {
+                return numero / divisor;
+            }
+            catch(Exception e)
+            {
+                throw;
+            }
         }
     }
 }

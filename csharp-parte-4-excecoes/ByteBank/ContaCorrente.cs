@@ -8,7 +8,7 @@ namespace ByteBank
 
         public static int TotalDeContasCriadas { get; private set; }
 
-        public Cliente Titular { get; set; }
+        public Cliente Titular { get; private set; }
 
         private int _agencia;
         public int Agencia
@@ -17,7 +17,7 @@ namespace ByteBank
             {
                 return _agencia;
             }
-            set
+            private set
             {
                 if (value <= 0)
                 {
@@ -27,7 +27,7 @@ namespace ByteBank
                 _agencia = value;
             }
         }
-        public int Numero { get; set; }
+        public int Numero { get; private set; }
 
         private double _saldo = 100;
 
